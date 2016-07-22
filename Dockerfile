@@ -46,6 +46,7 @@ RUN echo "# Installing Nodejs" && \
 
 # install some basic goodies
 RUN apt-get -y install python3
+RUN apt-get -y install python3-pip
 RUN pip3 install pytz
 
 # LABEL must be last for proper base image discoverability
