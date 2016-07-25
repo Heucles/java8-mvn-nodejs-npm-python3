@@ -48,6 +48,7 @@ RUN echo "# Installing Nodejs" && \
 RUN apt-get -y install python3
 RUN apt-get -y install python3-pip
 RUN pip3 install pytz
+RUN pip3 install pyyaml
 RUN pip3 install glob2
 
 # LABEL must be last for proper base image discoverability
