@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER James Dunnam "bindu@ksimple.org"
+MAINTAINER Bin Du "bindu@ksimple.org"
 
 ENV MAVEN_VERSION 3.3.9
 
